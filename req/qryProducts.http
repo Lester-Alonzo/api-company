@@ -1,0 +1,24 @@
+POST http://localhost:4000/api/products
+Content-Type: application/json
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNjcwMWIwMTRkMjc2MTY5ZGZkYjE0NyIsImlhdCI6MTYzNDE0ODkyMCwiZXhwIjoxNjM0MjM1MzIwfQ.DfQlbmI95MdbBd_-UieEJZFI-v8VNC7jsD9pyQ8QFUM
+
+{
+    "name": "asfsff ",
+    "category": "Laptop",
+    "price": 1200,
+    "imgURL": "https://i.ibb.co/X59kxcW/node.png"
+}
+###
+GET http://localhost:4000/api/products
+###
+GET http://localhost:4000/api/products/6167138cc5cecd6f6d72fb0d
+###
+PUT http://localhost:4000/api/products/6165c63b20f6ca8cdc9cffec
+Content-Type: application/json
+
+{
+    "price": 6000
+}
+###
+DELETE  http://localhost:4000/api/products/6165e60ae411c4c9f788072d
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNjcwMWIwMTRkMjc2MTY5ZGZkYjE0NyIsImlhdCI6MTYzNDE1MDgzNSwiZXhwIjoxNjM0MjM3MjM1fQ.Cn1QyKot2UrHAQROj-sFUHuQsXSqFA0ZTZdVJp0qBMw

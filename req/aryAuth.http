@@ -1,0 +1,29 @@
+###
+POST  http://localhost:4000/api/auth/sinup
+Content-Type: application/json
+
+{
+    "username": "maria132",
+    "email": "maria234@ibm.com",
+    "password": "password",
+    "roles": ["admin", "moderator"]
+
+}
+
+###
+
+POST  http://localhost:4000/api/auth/signin
+Content-Type: application/json
+
+{
+    "email": "234wr@sfasfasf.com",
+    "password": "password"
+}
+###
+POST  http://localhost:4000/api/auth/signin
+Content-Type: application/json
+
+{
+    "email": "jesus@gmail.com",
+    "password": "password"
+}

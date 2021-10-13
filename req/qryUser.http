@@ -1,0 +1,10 @@
+POST http://localhost:4000/api/users/
+Content-Type: application/json
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNjcwMWIwMTRkMjc2MTY5ZGZkYjE0NyIsImlhdCI6MTYzNDE1MjgyMSwiZXhwIjoxNjM0MjM5MjIxfQ.4tOoY_vHNnNNVdJGfJYRBiVsCwPYAXN7NFBhBhZO4co
+
+{
+    "username": "nuevoUSer",
+    "email": "nuevo@gmail.com",
+    "password": "password",
+    "roles": [ "admin"]
+}
